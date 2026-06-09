@@ -15,7 +15,7 @@ DATATYPE_6=2002
 DATATYPE_7=2003
 NUMDATA_TYPE_NUM=4
 STRDATA_TYPE_NUM=4
-DATA_NUM=4
+DATA_NUM=13
 TYPENAME=マップ設定
 ITEMNAME_NUM=8
 ITEMNAME0=マップファイル名
@@ -216,6 +216,15 @@ DEFAULT_VAL_7=0
 80
 100
 0","","",<<!--DATANAME--!>>ダンジョン,
+"MapData/Map004.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>,
+"MapData/Map005.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>寮2,
+"MapData/Map006.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>廊下,
+"MapData/Map007.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>,
+"MapData/Map008.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>,
+"MapData/Map009.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>血の付いたトイレ,
+"MapData\あー１.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>><マップ名を入力>,
+"MapData/Map011.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>,
+"MapData/Map012.mps",-1,-1,0,-1,"","","",<<!--DATANAME--!>>,
 
 <<--CSV_END-->>
 ----
@@ -1180,7 +1189,7 @@ DEFAULT_VAL_NUM=0
 <<!--DATANAME--!>>選択肢SE番号：決定(Sys3),
 <<!--DATANAME--!>>選択肢SE番号：選択(Sys3),
 <<!--DATANAME--!>>選択肢SE番号：ｷｬﾝｾﾙ(Sys3),
-<<!--DATANAME--!>>選択肢ｶｰｿﾙ現位置(0<<COMMA>>1<<COMMA>>2..非選択時:-1),
+<<!--DATANAME--!>>選択肢ｶｰｿﾙ現位置(0<<COMMA>>1<<COMMA>>2..非表示時:-1),
 <<!--DATANAME--!>>文字影付ける?(0=OFF<<COMMA>>1以上=ON),
 <<!--DATANAME--!>>選択肢ｶｰｿﾙ表示ﾓｰﾄﾞ?(0=通常<<COMMA>>1=加算),
 <<!--DATANAME--!>>ルビのフォントサイズ,
@@ -1747,7 +1756,7 @@ DEFAULT_VAL_NUM=1
 DEFAULT_VAL_0=0
 <<--CSV_START-->>
 "読込ファイル名",
-"SystemFile/CharaShade_8dir.png",<<!--DATANAME--!>>人間・通常サイズ影,
+"SystemFile/CharaShade_4dir (1).png",<<!--DATANAME--!>>人間・通常サイズ影,
 "",<<!--DATANAME--!>>影なし,
 "",<<!--DATANAME--!>>,
 "",<<!--DATANAME--!>>,
